@@ -12,6 +12,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# 文档文件
+README.md
+
 # 脚本文件（可选，如果不想上传部署脚本）
 # *.sh
 
