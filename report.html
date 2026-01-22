@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>港股打新收益分析系统</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <!-- SheetJS for Excel export -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+    <!-- 身份验证检查 -->
+    <script>
+        // 检查是否已登录
+        if (!sessionStorage.getItem('authenticated')) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --success-color: #27ae60;
+            --danger-color: #e74c3c;
+            --warning-color: #f39c12;
+            --info-color: #3498db;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px 0;
+        }
+
+        .main-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .header .subtitle {
+            margin-top: 10px;
+            opacity: 0.9;
+            font-size: 1rem;
+        }
+
+        .stats-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+
+        .stat-card .label {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        .stat-card.success .value { color: var(--success-color); }
+        .stat-card.danger .value { color: var(--danger-color); }
+        .stat-card.info .value { color: var(--info-color); }
+        .stat-card.warning .value { color: var(--warning-color); }
+
+        .nav-tabs {
+            border-bottom: 2px solid #dee2e6;
+            padding: 0 30px;
+        }
+
+        .nav-tabs .nav-link {
+            color: #6c757d;
+            font-weight: 600;
+            border: none;
+            padding: 15px 25px;
+            transition: all 0.3s;
+        }
+
+        .nav-tabs .nav-link:hover {
+            color: #667eea;
+            border-color: transparent;
+        }
+
+        .nav-tabs .nav-link.active {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            background: transparent;
+        }
+
+        .tab-content {
+            padding: 30px;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        .table {
+            margin: 0;
+        }
+
+        .table thead {
+            background: #667eea;
+            color: white;
+        }
+
+        .table tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .filter-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .btn-export {
+            background: var(--success-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-export:hover {
+            background: #229954;
+            transform: translateY(-2px);
+        }
+
+        .badge-rate {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        .badge-rate-30 { background: #e8f5e9; color: #2e7d32; }
+        .badge-rate-50 { background: #e3f2fd; color: #1565c0; }
+        .badge-rate-35 { background: #fff3e0; color: #e65100; }
+
+        .positive { color: var(--success-color); font-weight: 600; }
+        .negative { color: var(--danger-color); font-weight: 600; }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 30px 0 20px 0;
+            color: var(--primary-color);
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+
+        .alert-missing {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .stats-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .chart-container {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <!-- Header -->
+            <div class="header">
+                <h1>🎯 港股打新收益分析系统</h1>
+                <div class="subtitle" id="updateTime">数据更新时间: 加载中...</div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="stats-cards" id="statsCards">
+                <!-- 动态生成 -->
+            </div>
+
+            <!-- Navigation Tabs -->
+            <ul class="nav nav-tabs" id="mainTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="revenue-tab" data-bs-toggle="tab" data-bs-target="#revenue" type="button">
+                        📊 收益概览
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="commission-tab" data-bs-toggle="tab" data-bs-target="#commission" type="button">
+                        💰 分成详情
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="missing-tab" data-bs-toggle="tab" data-bs-target="#missing" type="button">
+                        ⚠️ 缺失信息
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="mainTabContent">
+                <!-- 收益概览 Tab -->
+                <div class="tab-pane fade show active" id="revenue" role="tabpanel">
+                    <div class="section-title">股票收益分析</div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="text-center mb-3">股票收益占比（饼图）</h5>
+                            <div class="chart-container">
+                                <canvas id="stockPieChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-center mb-3">股票收益排行（柱状图）</h5>
+                            <div class="chart-container">
+                                <canvas id="stockBarChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-title">亏损股票分析</div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="text-center mb-3">亏损股票占比（饼图）</h5>
+                            <div class="chart-container">
+                                <canvas id="lossStockPieChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-center mb-3">亏损股票排行（柱状图）</h5>
+                            <div class="chart-container">
+                                <canvas id="lossStockBarChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-title">账户收益排行</div>
+
+                    <!-- 筛选器 -->
+                    <div class="filter-section">
+                        <div class="row align-items-center">
+                            <div class="col-md-3">
+                                <label class="form-label">按管理组筛选：</label>
+                                <select class="form-select" id="accountGroupFilter">
+                                    <option value="all">全部账户</option>
+                                    <option value="文博管理账户">文博管理账户</option>
+                                    <option value="王峰管理账户">王峰管理账户</option>
+                                    <option value="无分成账户">无分成账户</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">排序方式：</label>
+                                <select class="form-select" id="accountSortBy">
+                                    <option value="revenue">按总收益排序</option>
+                                    <option value="commission">按总分成排序</option>
+                                    <option value="loss">按亏损排序</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">筛选后统计：</label>
+                                <div class="fw-bold text-success" id="filteredStats">
+                                    总收益: ¥0 | 分成: ¥0
+                                </div>
+                            </div>
+                            <div class="col-md-3 text-end">
+                                <label class="form-label">&nbsp;</label><br>
+                                <button class="btn btn-export" onclick="exportAccountRevenue()">
+                                    📥 导出账户收益表
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-container">
+                        <table class="table table-striped table-hover" id="accountRevenueTable">
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>账户名称</th>
+                                    <th>分成比例</th>
+                                    <th>总收益</th>
+                                    <th>总分成</th>
+                                    <th>亏损金额</th>
+                                </tr>
+                            </thead>
+                            <tbody id="accountRevenueBody">
+                                <!-- 动态生成 -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 分成详情 Tab -->
+                <div class="tab-pane fade" id="commission" role="tabpanel">
+                    <div class="section-title">分成规则说明</div>
+                    <div class="alert alert-info">
+                        <h6><strong>分成计算规则：</strong></h6>
+                        <ul>
+                            <li><strong>0% 分成组（无分成）：</strong>王峰、安粉燕、安香叶、安海燕、王香叶、安三娃</li>
+                            <li><strong>30% 分成组：</strong>刘彬、芦云、郜燕燕、姚智鑫、李焱、叶通、赵苗苗、芦川、杨凯</li>
+                            <li><strong>50% 分成组：</strong>李文博、李妍妍、郑爽爽、刘增运(姐夫)、张连梅(妈妈)、李明华(大姐)、李维峰(李爸爸)</li>
+                            <li><strong>35% 分成组：</strong>其他所有账户</li>
+                            <li><strong>特殊分成：</strong>李焱的蓝思科技、姚智鑫的维立志博和中慧生物、刘彬的维立志博，固定分成300元（乙组资金固定分配）</li>
+                            <li><strong>注意：</strong>只有正收益才计算分成，负收益（亏损）单独统计</li>
+                        </ul>
+                    </div>
+
+                    <div class="section-title">账户分成汇总</div>
+
+                    <!-- 筛选器 -->
+                    <div class="filter-section">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <label class="form-label">按管理组筛选：</label>
+                                <select class="form-select" id="commissionGroupFilter">
+                                    <option value="all">全部账户</option>
+                                    <option value="文博管理账户">文博管理账户</option>
+                                    <option value="王峰管理账户">王峰管理账户</option>
+                                    <option value="无分成账户">无分成账户</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <label class="form-label">&nbsp;</label><br>
+                                <button class="btn btn-export" onclick="exportCommissionSummary()">
+                                    📥 导出分成汇总表
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-container">
+                        <table class="table table-striped table-hover" id="commissionSummaryTable">
+                            <thead>
+                                <tr>
+                                    <th>账户名称</th>
+                                    <th>分成比例</th>
+                                    <th>总收益</th>
+                                    <th>总分成</th>
+                                    <th>亏损金额</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody id="commissionSummaryBody">
+                                <!-- 动态生成 -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="section-title">特定范围分成统计（长风药业→壁仞科技）</div>
+                    <div class="alert alert-warning">
+                        <strong>说明：</strong>统计从长风药业到壁仞科技的分成收入。其中郑爽爽、李芝灵(妗子)、王敏卓额外包含紫金国际的分成。
+                    </div>
+
+                    <div class="filter-section">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <label class="form-label">范围统计：</label>
+                                <div class="fw-bold text-primary" id="specialRangeStats">
+                                    总收益: ¥0 | 分成总收益: ¥0
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <button class="btn btn-export" onclick="exportSpecialRange()">
+                                    📥 导出特定范围分成表
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-container">
+                        <table class="table table-striped table-hover" id="specialRangeTable">
+                            <thead>
+                                <tr>
+                                    <th>账户名称</th>
+                                    <th>分成比例</th>
+                                    <th>范围内收益</th>
+                                    <th>范围内分成</th>
+                                    <th>备注</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody id="specialRangeBody">
+                                <!-- 动态生成 -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 缺失信息 Tab -->
+                <div class="tab-pane fade" id="missing" role="tabpanel">
+                    <div class="section-title">中签但未填写卖出价格</div>
+                    <div class="alert alert-danger">
+                        <strong>⚠️ 注意：</strong>以下账户已中签但未填写卖出价格，请及时补充！
+                    </div>
+
+                    <div id="missingRecordsContainer">
+                        <!-- 动态生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 详细分成模态框 -->
+    <div class="modal fade" id="detailModal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalTitle">账户详细分成</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="table-container">
+                        <table class="table table-sm table-striped">
+                            <thead>
+                                <tr>
+                                    <th>股票名称</th>
+                                    <th>收益</th>
+                                    <th>分成</th>
+                                    <th>说明</th>
+                                </tr>
+                            </thead>
+                            <tbody id="detailModalBody">
+                                <!-- 动态生成 -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-export" onclick="exportAccountDetail()">导出详情</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="report.js"></script>
+</body>
+</html>

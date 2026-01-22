@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Excel临时文件
+~$*.xlsx
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 脚本文件（可选，如果不想上传部署脚本）
+# *.sh
+
+# 其他
+*.log
