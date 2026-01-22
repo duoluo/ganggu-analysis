@@ -1,2898 +1,3821 @@
 {
-  "generated_at": "2026-01-22 11:57:37",
-  "summary": {
-    "total_revenue": 184724.29,
-    "total_stocks": 39,
-    "total_accounts": 49,
-    "total_commission": 58793.2,
-    "total_loss": 18778.6
-  },
-  "stocks": [
-    {
-      "name": "沪上阿姨(2025.05.06)",
-      "revenue": 1557.0,
-      "col_index": 2
-    },
-    {
-      "name": "绿茶(05.12)",
-      "revenue": -1607.62,
-      "col_index": 5
-    },
-    {
-      "name": "宁德时代(05.15)",
-      "revenue": 6442.0,
-      "col_index": 9
-    },
-    {
-      "name": "恒瑞医药(2025.05.19)",
-      "revenue": 2401.18,
-      "col_index": 13
-    },
-    {
-      "name": "海天味业(2025.06.12)",
-      "revenue": 285.81,
-      "col_index": 18
-    },
-    {
-      "name": "三花智控(06.19)",
-      "revenue": -2379.72,
-      "col_index": 23
-    },
-    {
-      "name": "IFBH(06.25)",
-      "revenue": 27445.17,
-      "col_index": 28
-    },
-    {
-      "name": "周六福(06.25)",
-      "revenue": 813.3,
-      "col_index": 33
-    },
-    {
-      "name": "蓝思科技(07.04)",
-      "revenue": 4949.16,
-      "col_index": 38
-    },
-    {
-      "name": "极智嘉(07.04)",
-      "revenue": 1085.43,
-      "col_index": 43
-    },
-    {
-      "name": "维立志博(07.021)",
-      "revenue": 20538.27,
-      "col_index": 48
-    },
-    {
-      "name": "中慧生物-B(08.07)",
-      "revenue": 4021.49,
-      "col_index": 53
-    },
-    {
-      "name": "银诺医药-B(08.13)",
-      "revenue": -100,
-      "col_index": 58
-    },
-    {
-      "name": "天岳先进(08.13)",
-      "revenue": 3283.71,
-      "col_index": 63
-    },
-    {
-      "name": "双登股份(08.20)",
-      "revenue": -100,
-      "col_index": 68
-    },
-    {
-      "name": "佳鑫国际资源(08.24)",
-      "revenue": -100.0,
-      "col_index": 73
-    },
-    {
-      "name": "大行科工(09.07)",
-      "revenue": 2973.7,
-      "col_index": 78
-    },
-    {
-      "name": "劲方医药-B(09.17)",
-      "revenue": 0,
-      "col_index": 83
-    },
-    {
-      "name": "不同集团(09.22)",
-      "revenue": 0,
-      "col_index": 88
-    },
-    {
-      "name": "紫金国际(09.26)",
-      "revenue": 83240.98,
-      "col_index": 93
-    },
-    {
-      "name": "长风药业(10.02)",
-      "revenue": -100,
-      "col_index": 98
-    },
-    {
-      "name": "金叶国际集团(10.05)",
-      "revenue": -100,
-      "col_index": 103
-    },
-    {
-      "name": "挚达科技(10.05)",
-      "revenue": 0,
-      "col_index": 108
-    },
-    {
-      "name": "轩竹生物(10.09)",
-      "revenue": -100,
-      "col_index": 113
-    },
-    {
-      "name": "海西新药(10.06)",
-      "revenue": -100,
-      "col_index": 118
-    },
-    {
-      "name": "聚水潭(10.17)",
-      "revenue": 1896.73,
-      "col_index": 123
-    },
-    {
-      "name": "广和通(10.16)",
-      "revenue": 0,
-      "col_index": 128
-    },
-    {
-      "name": "剑桥科技",
-      "revenue": 4889.31,
-      "col_index": 133
-    },
-    {
-      "name": "明略科技(10.30)",
-      "revenue": -100,
-      "col_index": 138
-    },
-    {
-      "name": "赛力斯",
-      "revenue": -10690.27,
-      "col_index": 143
-    },
-    {
-      "name": "均胜电子",
-      "revenue": 0,
-      "col_index": 148
-    },
-    {
-      "name": "旺山望水-B(2025.11.04)",
-      "revenue": 0,
-      "col_index": 153
-    },
-    {
-      "name": "乐舒适(20215.11.06)",
-      "revenue": 1434.53,
-      "col_index": 158
-    },
-    {
-      "name": "宝济药业 (12.04)",
-      "revenue": 2837.49,
-      "col_index": 163
-    },
-    {
-      "name": "智汇矿业 (12.16)",
-      "revenue": -100,
-      "col_index": 168
-    },
-    {
-      "name": "翰思艾泰 (12.18)",
-      "revenue": 914.89,
-      "col_index": 173
-    },
-    {
-      "name": "英矽智能 (12.23)",
-      "revenue": 0,
-      "col_index": 178
-    },
-    {
-      "name": "林清轩 (12.23)",
-      "revenue": 2080.41,
-      "col_index": 183
-    },
-    {
-      "name": "壁仞科技 (12.29)",
-      "revenue": 27211.34,
-      "col_index": 188
-    }
+  "generated_at": "2026-01-22 16:51:48",
+  "data_source": "Google Sheets",
+  "default_year": "2025",
+  "years": [
+    "2025",
+    "2026"
   ],
-  "accounts": [
-    {
-      "account": "王峰",
-      "rate": 0.0,
-      "rate_group": "0%",
-      "management_group": "无分成账户",
-      "total_revenue": 16646.02,
-      "total_commission": 0.0,
-      "total_loss": 2634.56,
+  "data": {
+    "2025": {
+      "year": "2025",
+      "summary": {
+        "total_revenue": 203303.98,
+        "total_stocks": 41,
+        "total_accounts": 49,
+        "total_commission": 61934.66,
+        "total_loss": 25843.64
+      },
       "stocks": [
         {
-          "stock_name": "沪上阿姨(2025.05.06)",
+          "name": "沪上阿姨(2025.05.06)",
           "revenue": 1557.0,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
+          "col_index": 2
         },
         {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -59.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "name": "绿茶(05.12)",
+          "revenue": -1607.62,
+          "col_index": 5
         },
         {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "name": "宁德时代(05.15)",
+          "revenue": 6442.0,
+          "col_index": 9
         },
         {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": -797.57,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -677.75,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "IFBH(06.25)",
-          "revenue": 7356.54,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 246.8,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "极智嘉(07.04)",
-          "revenue": 361.81,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "维立志博(07.021)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "大行科工(09.07)",
-          "revenue": 2973.7,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "长风药业(10.02)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "金叶国际集团(10.05)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "轩竹生物(10.09)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "海西新药(10.06)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "聚水潭(10.17)",
-          "revenue": 788.52,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "明略科技(10.30)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "乐舒适(20215.11.06)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宝济药业 (12.04)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "智汇矿业 (12.16)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "翰思艾泰 (12.18)",
-          "revenue": 848.82,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "林清轩 (12.23)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 5147.39,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "安粉燕",
-      "rate": 0.0,
-      "rate_group": "0%",
-      "management_group": "无分成账户",
-      "total_revenue": 4157.58,
-      "total_commission": 0.0,
-      "total_loss": 179.24,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -79.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": 377.68,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": 616.27,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 102.86,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "维立志博(07.021)",
-          "revenue": 3240.01,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "安香叶",
-      "rate": 0.0,
-      "rate_group": "0%",
-      "management_group": "无分成账户",
-      "total_revenue": 178.54,
-      "total_commission": 0.0,
-      "total_loss": 234.24,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -83.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": 138.02,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -98.81,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 274.76,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": -52.19,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "安海燕",
-      "rate": 0.0,
-      "rate_group": "0%",
-      "management_group": "无分成账户",
-      "total_revenue": 105.63,
-      "total_commission": 0.0,
-      "total_loss": 200.0,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": 305.63,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "维立志博(07.021)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "王香叶",
-      "rate": 0.0,
-      "rate_group": "0%",
-      "management_group": "无分成账户",
-      "total_revenue": 74.74,
-      "total_commission": 0.0,
-      "total_loss": 172.06,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -83.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -88.82,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 246.8,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "安三娃",
-      "rate": 0.0,
-      "rate_group": "0%",
-      "management_group": "无分成账户",
-      "total_revenue": 9381.49,
-      "total_commission": 0.0,
-      "total_loss": 137.73,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": -6.78,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -112.71,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 218.83,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": -18.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 6784.06,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2516.33,
-          "commission": 0.0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "刘彬",
-      "rate": 0.3,
-      "rate_group": "30%",
-      "management_group": "王峰管理账户",
-      "total_revenue": 12928.09,
-      "total_commission": 1585.88,
-      "total_loss": 139.83,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -56.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -83.83,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "IFBH(06.25)",
-          "revenue": 3376.25,
-          "commission": 1012.88,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "维立志博(07.021)",
-          "revenue": 8781.67,
-          "commission": 300,
-          "is_special": true,
-          "special_note": "乙组资金固定分配"
-        },
-        {
-          "stock_name": "剑桥科技",
-          "revenue": 910.0,
-          "commission": 273.0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "芦云",
-      "rate": 0.3,
-      "rate_group": "30%",
-      "management_group": "王峰管理账户",
-      "total_revenue": 179.33,
-      "total_commission": 126.34,
-      "total_loss": 241.81,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -148.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -93.81,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": 421.14,
-          "commission": 126.34,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "郜燕燕",
-      "rate": 0.3,
-      "rate_group": "30%",
-      "management_group": "王峰管理账户",
-      "total_revenue": 4424.01,
-      "total_commission": 1386.8,
-      "total_loss": 198.67,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -56.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -142.67,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 246.8,
-          "commission": 74.04,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3628.5,
-          "commission": 1088.55,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "剑桥科技",
-          "revenue": 747.38,
-          "commission": 224.21,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "姚智鑫",
-      "rate": 0.3,
-      "rate_group": "30%",
-      "management_group": "王峰管理账户",
-      "total_revenue": 19381.42,
-      "total_commission": 4496.66,
-      "total_loss": 473.46,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -36.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "维立志博(07.021)",
-          "revenue": 5866.04,
-          "commission": 300,
-          "is_special": true,
-          "special_note": "乙组资金固定分配"
-        },
-        {
-          "stock_name": "中慧生物-B(08.07)",
-          "revenue": 4021.49,
-          "commission": 1206.45,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "银诺医药-B(08.13)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": -137.46,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "双登股份(08.20)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "佳鑫国际资源(08.24)",
-          "revenue": -100.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3608.53,
-          "commission": 1082.56,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "剑桥科技",
-          "revenue": 905.0,
-          "commission": 271.5,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宝济药业 (12.04)",
-          "revenue": 2937.49,
-          "commission": 881.25,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2516.33,
-          "commission": 754.9,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "李焱",
-      "rate": 0.3,
-      "rate_group": "30%",
-      "management_group": "王峰管理账户",
-      "total_revenue": 4726.81,
-      "total_commission": 1397.54,
-      "total_loss": 229.81,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -36.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -93.81,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 1298.16,
-          "commission": 300,
-          "is_special": true,
-          "special_note": "乙组资金固定分配"
-        },
-        {
-          "stock_name": "维立志博(07.021)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3658.46,
-          "commission": 1097.54,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "叶通",
-      "rate": 0.3,
-      "rate_group": "30%",
-      "management_group": "王峰管理账户",
-      "total_revenue": 4644.16,
-      "total_commission": 1393.25,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": 148.0,
-          "commission": 44.4,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 182.89,
-          "commission": 54.87,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": 435.12,
-          "commission": 130.54,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3878.15,
-          "commission": 1163.44,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "赵苗苗",
-      "rate": 0.3,
-      "rate_group": "30%",
-      "management_group": "王峰管理账户",
-      "total_revenue": 121.03,
-      "total_commission": 58.46,
-      "total_loss": 73.84,
-      "stocks": [
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -73.84,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 194.87,
-          "commission": 58.46,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "芦川",
-      "rate": 0.3,
-      "rate_group": "30%",
-      "management_group": "王峰管理账户",
-      "total_revenue": 182.95,
-      "total_commission": 54.88,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": 182.95,
-          "commission": 54.88,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "杨凯",
-      "rate": 0.3,
-      "rate_group": "30%",
-      "management_group": "王峰管理账户",
-      "total_revenue": 3898.12,
-      "total_commission": 1169.44,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3898.12,
-          "commission": 1169.44,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "李文博",
-      "rate": 0.5,
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "total_revenue": 4907.91,
-      "total_commission": 2460.92,
-      "total_loss": 13.92,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -13.92,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 194.87,
-          "commission": 97.44,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 4726.96,
-          "commission": 2363.48,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "李妍妍",
-      "rate": 0.5,
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "total_revenue": 5129.35,
-      "total_commission": 4033.89,
-      "total_loss": 2938.44,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -103.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 3221.0,
-          "commission": 1610.5,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -152.65,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 4846.79,
-          "commission": 2423.39,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "赛力斯",
-          "revenue": -2682.55,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "郑爽爽",
-      "rate": 0.5,
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "total_revenue": 2927.48,
-      "total_commission": 1564.31,
-      "total_loss": 201.14,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -187.22,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -13.92,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 436.53,
-          "commission": 218.26,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2692.09,
-          "commission": 1346.05,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "刘增运(姐夫)",
-      "rate": 0.5,
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "total_revenue": 7753.25,
-      "total_commission": 3940.2,
-      "total_loss": 127.15,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -103.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -23.91,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "IFBH(06.25)",
-          "revenue": 2427.59,
-          "commission": 1213.8,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 246.8,
-          "commission": 123.4,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": 499.03,
-          "commission": 249.51,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 4706.98,
-          "commission": 2353.49,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "张连梅(妈妈)",
-      "rate": 0.5,
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "total_revenue": 1013.67,
-      "total_commission": 624.79,
-      "total_loss": 235.92,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -103.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -132.68,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "剑桥科技",
-          "revenue": 1249.59,
-          "commission": 624.79,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "李明华(大姐)",
-      "rate": 0.5,
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "total_revenue": 7345.69,
-      "total_commission": 3722.92,
-      "total_loss": 100.14,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -71.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 3221.0,
-          "commission": 1610.5,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -28.9,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "IFBH(06.25)",
-          "revenue": 3116.62,
-          "commission": 1558.31,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "聚水潭(10.17)",
-          "revenue": 1108.21,
-          "commission": 554.11,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "李维峰(李爸爸)",
-      "rate": 0.5,
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "total_revenue": 6908.31,
-      "total_commission": 3582.1,
-      "total_loss": 255.87,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -83.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": 88.09,
-          "commission": 44.05,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -172.63,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "维立志博(07.021)",
-          "revenue": 2950.56,
-          "commission": 1475.28,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": 526.99,
-          "commission": 263.5,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3598.54,
-          "commission": 1799.27,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "张芳针(姨)",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 6484.16,
-      "total_commission": 2307.97,
-      "total_loss": 110.05,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -93.81,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": -16.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3638.49,
-          "commission": 1273.47,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2955.72,
-          "commission": 1034.5,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "张继前(舅)",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 3573.65,
-      "total_commission": 1340.36,
-      "total_loss": 256.0,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -156.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "恒瑞医药(2025.05.19)",
+          "name": "恒瑞医药(2025.05.19)",
           "revenue": 2401.18,
-          "commission": 840.41,
-          "is_special": false,
-          "special_note": null
+          "col_index": 13
         },
         {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": 28.03,
-          "commission": 9.81,
-          "is_special": false,
-          "special_note": null
+          "name": "海天味业(2025.06.12)",
+          "revenue": 285.81,
+          "col_index": 18
         },
         {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "name": "三花智控(06.19)",
+          "revenue": -2744.96,
+          "col_index": 23
         },
         {
-          "stock_name": "周六福(06.25)",
-          "revenue": 356.72,
-          "commission": 124.85,
-          "is_special": false,
-          "special_note": null
+          "name": "IFBH(06.25)",
+          "revenue": 27445.17,
+          "col_index": 28
         },
         {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 190.87,
-          "commission": 66.8,
-          "is_special": false,
-          "special_note": null
+          "name": "周六福(06.25)",
+          "revenue": 813.3,
+          "col_index": 33
         },
         {
-          "stock_name": "极智嘉(07.04)",
-          "revenue": 361.81,
-          "commission": 126.63,
-          "is_special": false,
-          "special_note": null
+          "name": "蓝思科技(07.04)",
+          "revenue": 4949.16,
+          "col_index": 38
         },
         {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": 491.04,
-          "commission": 171.86,
-          "is_special": false,
-          "special_note": null
+          "name": "极智嘉(07.04)",
+          "revenue": 1085.43,
+          "col_index": 43
+        },
+        {
+          "name": "维立志博(07.021)",
+          "revenue": 20538.27,
+          "col_index": 48
+        },
+        {
+          "name": "中慧生物-B(08.07)",
+          "revenue": 4021.49,
+          "col_index": 53
+        },
+        {
+          "name": "银诺医药-B(08.13)",
+          "revenue": -100.0,
+          "col_index": 58
+        },
+        {
+          "name": "天岳先进(08.13)",
+          "revenue": 3283.71,
+          "col_index": 63
+        },
+        {
+          "name": "双登股份(08.20)",
+          "revenue": -100.0,
+          "col_index": 68
+        },
+        {
+          "name": "佳鑫国际资源(08.24)",
+          "revenue": -100.0,
+          "col_index": 73
+        },
+        {
+          "name": "大行科工(09.07)",
+          "revenue": 2973.7,
+          "col_index": 78
+        },
+        {
+          "name": "劲方医药-B(09.17)",
+          "revenue": 0,
+          "col_index": 83
+        },
+        {
+          "name": "不同集团(09.22)",
+          "revenue": 0,
+          "col_index": 88
+        },
+        {
+          "name": "紫金国际(09.26)",
+          "revenue": 107457.72,
+          "col_index": 93
+        },
+        {
+          "name": "长风药业(10.02)",
+          "revenue": -100.0,
+          "col_index": 98
+        },
+        {
+          "name": "金叶国际集团(10.05)",
+          "revenue": -100.0,
+          "col_index": 103
+        },
+        {
+          "name": "挚达科技(10.05)",
+          "revenue": 0,
+          "col_index": 108
+        },
+        {
+          "name": "轩竹生物(10.09)",
+          "revenue": -100.0,
+          "col_index": 113
+        },
+        {
+          "name": "海西新药(10.06)",
+          "revenue": 1527.98,
+          "col_index": 118
+        },
+        {
+          "name": "聚水潭(10.17)",
+          "revenue": 1896.73,
+          "col_index": 123
+        },
+        {
+          "name": "广和通(10.16)",
+          "revenue": 0,
+          "col_index": 128
+        },
+        {
+          "name": "剑桥科技",
+          "revenue": 4889.31,
+          "col_index": 133
+        },
+        {
+          "name": "明略科技(10.30)",
+          "revenue": -100.0,
+          "col_index": 138
+        },
+        {
+          "name": "赛力斯",
+          "revenue": -16045.39,
+          "col_index": 143
+        },
+        {
+          "name": "均胜电子",
+          "revenue": 0,
+          "col_index": 148
+        },
+        {
+          "name": "旺山望水-B(2025.11.04)",
+          "revenue": 0,
+          "col_index": 153
+        },
+        {
+          "name": "乐舒适(20215.11.06)",
+          "revenue": 1434.53,
+          "col_index": 158
+        },
+        {
+          "name": "宝济药业 (12.04)",
+          "revenue": 2837.49,
+          "col_index": 165
+        },
+        {
+          "name": "智汇矿业 (12.16)",
+          "revenue": -100.0,
+          "col_index": 170
+        },
+        {
+          "name": "翰思艾泰 (12.18)",
+          "revenue": -629.78,
+          "col_index": 175
+        },
+        {
+          "name": "英矽智能 (12.23)",
+          "revenue": 0,
+          "col_index": 180
+        },
+        {
+          "name": "林清轩 (12.23)",
+          "revenue": 2080.41,
+          "col_index": 185
+        },
+        {
+          "name": "壁仞科技 (12.29)",
+          "revenue": 27211.34,
+          "col_index": 190
         }
-      ]
+      ],
+      "accounts": [
+        {
+          "account": "王峰",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": 23879.45,
+          "total_commission": 0.0,
+          "total_loss": 2534.56,
+          "stocks": [
+            {
+              "stock_name": "沪上阿姨(2025.05.06)",
+              "revenue": 1557.0,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -59.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": -797.57,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -677.75,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "IFBH(06.25)",
+              "revenue": 7356.54,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 246.8,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "极智嘉(07.04)",
+              "revenue": 361.81,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "维立志博(07.021)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "大行科工(09.07)",
+              "revenue": 2973.7,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 7133.43,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "长风药业(10.02)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "金叶国际集团(10.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "轩竹生物(10.09)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海西新药(10.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "聚水潭(10.17)",
+              "revenue": 788.52,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "明略科技(10.30)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "乐舒适(20215.11.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宝济药业 (12.04)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "智汇矿业 (12.16)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "翰思艾泰 (12.18)",
+              "revenue": 848.82,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "林清轩 (12.23)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 5147.39,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "安粉燕",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": 15834.76,
+          "total_commission": 0.0,
+          "total_loss": 79.24,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -79.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": 377.68,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": 616.27,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 102.86,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "维立志博(07.021)",
+              "revenue": 3240.01,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 11577.18,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "安香叶",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": 178.54,
+          "total_commission": 0.0,
+          "total_loss": 234.24,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -83.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": 138.02,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -98.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 274.76,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": -52.19,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "安海燕",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": 105.63,
+          "total_commission": 0.0,
+          "total_loss": 200.0,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": 305.63,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "维立志博(07.021)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "王香叶",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": 74.74,
+          "total_commission": 0.0,
+          "total_loss": 172.06,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -83.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -88.82,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 246.8,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "安三娃",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": 9381.49,
+          "total_commission": 0.0,
+          "total_loss": 137.73,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": -6.78,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -112.71,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 218.83,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": -18.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 6784.06,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2516.33,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "刘彬",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 12928.09,
+          "total_commission": 1585.88,
+          "total_loss": 139.83,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -56.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -83.83,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "IFBH(06.25)",
+              "revenue": 3376.25,
+              "commission": 1012.88,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "维立志博(07.021)",
+              "revenue": 8781.67,
+              "commission": 300,
+              "is_special": true,
+              "special_note": "乙组资金固定分配"
+            },
+            {
+              "stock_name": "剑桥科技",
+              "revenue": 910.0,
+              "commission": 273.0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "芦云",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 179.33,
+          "total_commission": 126.34,
+          "total_loss": 241.81,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -148.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -93.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": 421.14,
+              "commission": 126.34,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "郜燕燕",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 6051.99,
+          "total_commission": 1875.19,
+          "total_loss": 198.67,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -56.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -142.67,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 246.8,
+              "commission": 74.04,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3628.5,
+              "commission": 1088.55,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海西新药(10.06)",
+              "revenue": 1627.98,
+              "commission": 488.39,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "剑桥科技",
+              "revenue": 747.38,
+              "commission": 224.21,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "姚智鑫",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 19282.61,
+          "total_commission": 4496.66,
+          "total_loss": 572.27,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -36.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -98.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "维立志博(07.021)",
+              "revenue": 5866.04,
+              "commission": 300,
+              "is_special": true,
+              "special_note": "乙组资金固定分配"
+            },
+            {
+              "stock_name": "中慧生物-B(08.07)",
+              "revenue": 4021.49,
+              "commission": 1206.45,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "银诺医药-B(08.13)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": -137.46,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "双登股份(08.20)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "佳鑫国际资源(08.24)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3608.53,
+              "commission": 1082.56,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "剑桥科技",
+              "revenue": 905.0,
+              "commission": 271.5,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宝济药业 (12.04)",
+              "revenue": 2937.49,
+              "commission": 881.25,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2516.33,
+              "commission": 754.9,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李焱",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 2044.26,
+          "total_commission": 1397.54,
+          "total_loss": 2912.36,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -36.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -93.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 1298.16,
+              "commission": 300,
+              "is_special": true,
+              "special_note": "乙组资金固定分配"
+            },
+            {
+              "stock_name": "维立志博(07.021)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3658.46,
+              "commission": 1097.54,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2682.55,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "叶通",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 4471.53,
+          "total_commission": 1393.25,
+          "total_loss": 172.63,
+          "stocks": [
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": 148.0,
+              "commission": 44.4,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -172.63,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 182.89,
+              "commission": 54.87,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": 435.12,
+              "commission": 130.54,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3878.15,
+              "commission": 1163.44,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "赵苗苗",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 121.03,
+          "total_commission": 58.46,
+          "total_loss": 73.84,
+          "stocks": [
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -73.84,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 194.87,
+              "commission": 58.46,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "芦川",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": -4128.1,
+          "total_commission": 54.88,
+          "total_loss": 4311.05,
+          "stocks": [
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": 182.95,
+              "commission": 54.88,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -93.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2672.57,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "翰思艾泰 (12.18)",
+              "revenue": -1544.67,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "杨凯",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 3898.12,
+          "total_commission": 1169.44,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3898.12,
+              "commission": 1169.44,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李文博",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 4907.91,
+          "total_commission": 2460.92,
+          "total_loss": 13.92,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -13.92,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 194.87,
+              "commission": 97.44,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 4726.96,
+              "commission": 2363.48,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李妍妍",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 5129.35,
+          "total_commission": 4033.89,
+          "total_loss": 2938.44,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -103.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 3221.0,
+              "commission": 1610.5,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -152.65,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 4846.79,
+              "commission": 2423.39,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2682.55,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "郑爽爽",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 8233.62,
+          "total_commission": 4217.38,
+          "total_loss": 201.14,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -187.22,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -13.92,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 436.53,
+              "commission": 218.26,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 5306.14,
+              "commission": 2653.07,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2692.09,
+              "commission": 1346.05,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "刘增运(姐夫)",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 7753.25,
+          "total_commission": 3940.2,
+          "total_loss": 127.15,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -103.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -23.91,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "IFBH(06.25)",
+              "revenue": 2427.59,
+              "commission": 1213.8,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 246.8,
+              "commission": 123.4,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": 499.03,
+              "commission": 249.51,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 4706.98,
+              "commission": 2353.49,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张连梅(妈妈)",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 1013.67,
+          "total_commission": 624.79,
+          "total_loss": 235.92,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -103.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -132.68,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "剑桥科技",
+              "revenue": 1249.59,
+              "commission": 624.79,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李明华(大姐)",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 7345.69,
+          "total_commission": 3722.92,
+          "total_loss": 100.14,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -71.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 3221.0,
+              "commission": 1610.5,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -28.9,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "IFBH(06.25)",
+              "revenue": 3116.62,
+              "commission": 1558.31,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "聚水潭(10.17)",
+              "revenue": 1108.21,
+              "commission": 554.11,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李维峰(李爸爸)",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 6908.31,
+          "total_commission": 3582.1,
+          "total_loss": 255.87,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -83.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": 88.09,
+              "commission": 44.05,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -172.63,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "维立志博(07.021)",
+              "revenue": 2950.56,
+              "commission": 1475.28,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": 526.99,
+              "commission": 263.5,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3598.54,
+              "commission": 1799.27,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张芳针(姨)",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 6484.16,
+          "total_commission": 2307.97,
+          "total_loss": 110.05,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -93.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": -16.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3638.49,
+              "commission": 1273.47,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2955.72,
+              "commission": 1034.5,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张继前(舅)",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 3573.65,
+          "total_commission": 1340.36,
+          "total_loss": 256.0,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -156.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "恒瑞医药(2025.05.19)",
+              "revenue": 2401.18,
+              "commission": 840.41,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": 28.03,
+              "commission": 9.81,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "周六福(06.25)",
+              "revenue": 356.72,
+              "commission": 124.85,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 190.87,
+              "commission": 66.8,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "极智嘉(07.04)",
+              "revenue": 361.81,
+              "commission": 126.63,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": 491.04,
+              "commission": 171.86,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张卓祥（哥）",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 3413.21,
+          "total_commission": 2218.12,
+          "total_loss": 2924.29,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": -151.72,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "IFBH(06.25)",
+              "revenue": 2567.39,
+              "commission": 898.59,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "周六福(06.25)",
+              "revenue": 456.58,
+              "commission": 159.8,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "极智嘉(07.04)",
+              "revenue": 361.81,
+              "commission": 126.63,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2672.57,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2951.72,
+              "commission": 1033.1,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "唐莎（嫂子）",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 3817.58,
+          "total_commission": 1477.57,
+          "total_loss": 404.03,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -80.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -193.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "IFBH(06.25)",
+              "revenue": 2687.08,
+              "commission": 940.48,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": -30.22,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "乐舒适(20215.11.06)",
+              "revenue": 1534.53,
+              "commission": 537.09,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张年光（哥）",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 19.24,
+          "total_commission": 39.57,
+          "total_loss": 93.81,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": 113.05,
+              "commission": 39.57,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -93.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "茹雅倩（嫂子）",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 6455.53,
+          "total_commission": 2326.24,
+          "total_loss": 190.87,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -172.63,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "IFBH(06.25)",
+              "revenue": 2567.39,
+              "commission": 898.59,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 190.87,
+              "commission": 66.8,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": -18.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3888.14,
+              "commission": 1360.85,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张静",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 3803.44,
+          "total_commission": 1364.04,
+          "total_loss": 93.81,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -93.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "剑桥科技",
+              "revenue": 1077.34,
+              "commission": 377.07,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2819.91,
+              "commission": 986.97,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "黄振博",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 2115.24,
+          "total_commission": 1719.14,
+          "total_loss": 2796.6,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -93.81,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 194.87,
+              "commission": 68.2,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": -20.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 4716.97,
+              "commission": 1650.94,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2682.55,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "刘家乐",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -61.76,
+          "total_commission": 60.94,
+          "total_loss": 235.89,
+          "stocks": [
+            {
+              "stock_name": "绿茶(05.12)",
+              "revenue": -83.24,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "宁德时代(05.15)",
+              "revenue": 0.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": 108.06,
+              "commission": 37.82,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -152.65,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "翰思艾泰 (12.18)",
+              "revenue": 66.07,
+              "commission": 23.12,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "刘尊博",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "吴清汪",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "周立良",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 7067.27,
+          "total_commission": 2473.55,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": 503.02,
+              "commission": 176.06,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3908.11,
+              "commission": 1367.84,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2656.14,
+              "commission": 929.65,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "申嵩",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 1104.45,
+          "total_commission": 414.15,
+          "total_loss": 78.83,
+          "stocks": [
+            {
+              "stock_name": "海天味业(2025.06.12)",
+              "revenue": 157.99,
+              "commission": 55.3,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -78.83,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "林清轩 (12.23)",
+              "revenue": 1025.29,
+              "commission": 358.85,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张慧博",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 1393.59,
+          "total_commission": 1416.16,
+          "total_loss": 2652.6,
+          "stocks": [
+            {
+              "stock_name": "IFBH(06.25)",
+              "revenue": 3346.3,
+              "commission": 1171.2,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 186.88,
+              "commission": 65.41,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": 513.01,
+              "commission": 179.55,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2652.6,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "郑路遥",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -123.77,
+          "total_commission": 0,
+          "total_loss": 123.77,
+          "stocks": [
+            {
+              "stock_name": "三花智控(06.19)",
+              "revenue": -123.77,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "史澳博",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "高宁宁",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 294.73,
+          "total_commission": 103.16,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "蓝思科技(07.04)",
+              "revenue": 294.73,
+              "commission": 103.16,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "郑加豪",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 3908.11,
+          "total_commission": 1367.84,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 3908.11,
+              "commission": 1367.84,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "万贲",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "王敏卓",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 5513.58,
+          "total_commission": 1929.75,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": 217.43,
+              "commission": 76.1,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 5296.15,
+              "commission": 1853.65,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "高翔",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 4697.0,
+          "total_commission": 1643.95,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 4697.0,
+              "commission": 1643.95,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "杨森",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -30.22,
+          "total_commission": 0,
+          "total_loss": 30.22,
+          "stocks": [
+            {
+              "stock_name": "天岳先进(08.13)",
+              "revenue": -30.22,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "许经菊",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "黄秋月",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 4110.83,
+          "total_commission": 1438.79,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "林清轩 (12.23)",
+              "revenue": 1155.11,
+              "commission": 404.29,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2955.72,
+              "commission": 1034.5,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "宋亚祥",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 4856.77,
+          "total_commission": 1699.87,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 4856.77,
+              "commission": 1699.87,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "王伟",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "李芝灵(妗子)",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 5296.15,
+          "total_commission": 1853.65,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 5296.15,
+              "commission": 1853.65,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        }
+      ],
+      "special_range": [
+        {
+          "account": "李文博",
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "李妍妍",
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "range_revenue": -2682.55,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2682.55,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "郑爽爽",
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "range_revenue": 7998.23,
+          "range_commission": 3999.12,
+          "has_zijin_extra": true,
+          "stocks": [
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2692.09,
+              "commission": 1346.05,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 5306.14,
+              "commission": 2653.07,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "刘增运(姐夫)",
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "张连梅(妈妈)",
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "range_revenue": 1249.59,
+          "range_commission": 624.79,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "剑桥科技",
+              "revenue": 1249.59,
+              "commission": 624.79,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李明华(大姐)",
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "range_revenue": 1108.21,
+          "range_commission": 554.11,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "聚水潭(10.17)",
+              "revenue": 1108.21,
+              "commission": 554.11,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李维峰(李爸爸)",
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "张芳针(姨)",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 2955.72,
+          "range_commission": 1034.5,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2955.72,
+              "commission": 1034.5,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张继前(舅)",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "张卓祥（哥）",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 279.15,
+          "range_commission": 1033.1,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2672.57,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2951.72,
+              "commission": 1033.1,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "唐莎（嫂子）",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 1534.53,
+          "range_commission": 537.09,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "乐舒适(20215.11.06)",
+              "revenue": 1534.53,
+              "commission": 537.09,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张年光（哥）",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "茹雅倩（嫂子）",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "张静",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 3897.25,
+          "range_commission": 1364.04,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "剑桥科技",
+              "revenue": 1077.34,
+              "commission": 377.07,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2819.91,
+              "commission": 986.97,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "黄振博",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": -2682.55,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2682.55,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "刘家乐",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 66.07,
+          "range_commission": 23.12,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "翰思艾泰 (12.18)",
+              "revenue": 66.07,
+              "commission": 23.12,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "刘尊博",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "吴清汪",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "周立良",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 2656.14,
+          "range_commission": 929.65,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2656.14,
+              "commission": 929.65,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "申嵩",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 1025.29,
+          "range_commission": 358.85,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "林清轩 (12.23)",
+              "revenue": 1025.29,
+              "commission": 358.85,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张慧博",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": -2652.6,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "赛力斯",
+              "revenue": -2652.6,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "郑路遥",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "史澳博",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "高宁宁",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "郑加豪",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "万贲",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "王敏卓",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 5296.15,
+          "range_commission": 1853.65,
+          "has_zijin_extra": true,
+          "stocks": [
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 5296.15,
+              "commission": 1853.65,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "高翔",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "杨森",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "许经菊",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "黄秋月",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 4110.83,
+          "range_commission": 1438.79,
+          "has_zijin_extra": false,
+          "stocks": [
+            {
+              "stock_name": "林清轩 (12.23)",
+              "revenue": 1155.11,
+              "commission": 404.29,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "壁仞科技 (12.29)",
+              "revenue": 2955.72,
+              "commission": 1034.5,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "宋亚祥",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "王伟",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 0,
+          "range_commission": 0,
+          "has_zijin_extra": false,
+          "stocks": []
+        },
+        {
+          "account": "李芝灵(妗子)",
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "range_revenue": 5296.15,
+          "range_commission": 1853.65,
+          "has_zijin_extra": true,
+          "stocks": [
+            {
+              "stock_name": "紫金国际(09.26)",
+              "revenue": 5296.15,
+              "commission": 1853.65,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        }
+      ],
+      "missing_records": [
+        {
+          "account": "安粉燕",
+          "stock": "均胜电子",
+          "row": 5,
+          "col": "ER"
+        },
+        {
+          "account": "安粉燕",
+          "stock": "翰思艾泰 (12.18)",
+          "row": 5,
+          "col": "FS"
+        },
+        {
+          "account": "安三娃",
+          "stock": "剑桥科技",
+          "row": 9,
+          "col": "EC"
+        },
+        {
+          "account": "安三娃",
+          "stock": "均胜电子",
+          "row": 9,
+          "col": "ER"
+        }
+      ],
+      "commission_rates": {
+        "0%": [
+          "王峰",
+          "安粉燕",
+          "安香叶",
+          "安海燕",
+          "王香叶",
+          "安三娃"
+        ],
+        "30%": [
+          "刘彬",
+          "芦云",
+          "郜燕燕",
+          "姚智鑫",
+          "李焱",
+          "叶通",
+          "赵苗苗",
+          "芦川",
+          "杨凯"
+        ],
+        "50%": [
+          "李文博",
+          "李妍妍",
+          "郑爽爽",
+          "刘增运(姐夫)",
+          "张连梅(妈妈)",
+          "李明华(大姐)",
+          "李维峰(李爸爸)"
+        ],
+        "35%": [
+          "张芳针(姨)",
+          "张继前(舅)",
+          "张卓祥（哥）",
+          "唐莎（嫂子）",
+          "张年光（哥）",
+          "茹雅倩（嫂子）",
+          "张静",
+          "黄振博",
+          "刘家乐",
+          "刘尊博",
+          "吴清汪",
+          "周立良",
+          "申嵩",
+          "张慧博",
+          "郑路遥",
+          "史澳博",
+          "高宁宁",
+          "郑加豪",
+          "万贲",
+          "王敏卓",
+          "高翔",
+          "杨森",
+          "许经菊",
+          "黄秋月",
+          "宋亚祥",
+          "王伟",
+          "李芝灵(妗子)"
+        ]
+      },
+      "account_groups": {
+        "文博管理账户": [
+          "李文博",
+          "李妍妍",
+          "郑爽爽",
+          "刘增运(姐夫)",
+          "张连梅(妈妈)",
+          "李明华(大姐)",
+          "李维峰(李爸爸)",
+          "张芳针(姨)",
+          "张继前(舅)",
+          "张卓祥（哥）",
+          "唐莎（嫂子）",
+          "张年光（哥）",
+          "茹雅倩（嫂子）",
+          "张静",
+          "黄振博",
+          "刘家乐",
+          "刘尊博",
+          "吴清汪",
+          "周立良",
+          "申嵩",
+          "张慧博",
+          "郑路遥",
+          "史澳博",
+          "高宁宁",
+          "郑加豪",
+          "万贲",
+          "王敏卓",
+          "高翔",
+          "杨森",
+          "许经菊",
+          "黄秋月",
+          "宋亚祥",
+          "王伟",
+          "李芝灵(妗子)"
+        ],
+        "王峰管理账户": [
+          "刘彬",
+          "芦云",
+          "郜燕燕",
+          "姚智鑫",
+          "李焱",
+          "叶通",
+          "赵苗苗",
+          "芦川",
+          "杨凯"
+        ],
+        "无分成账户": [
+          "王峰",
+          "安粉燕",
+          "安香叶",
+          "安海燕",
+          "王香叶",
+          "安三娃"
+        ]
+      },
+      "special_commissions": {
+        "李焱_蓝思科技": 300,
+        "姚智鑫_维立志博": 300,
+        "姚智鑫_中慧生物": 300,
+        "刘彬_维立志博": 300
+      },
+      "show_special_range": true
     },
-    {
-      "account": "张卓祥（哥）",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 3413.21,
-      "total_commission": 2218.12,
-      "total_loss": 2924.29,
+    "2026": {
+      "year": "2026",
+      "summary": {
+        "total_revenue": 28512.15,
+        "total_stocks": 7,
+        "total_accounts": 49,
+        "total_commission": 4523.24,
+        "total_loss": 2300.0
+      },
       "stocks": [
         {
-          "stock_name": "绿茶(05.12)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "name": "智普(01.05)",
+          "revenue": 19914.41,
+          "col_index": 5
         },
         {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "name": "MiniMax(01.06)",
+          "revenue": -327.21,
+          "col_index": 10
         },
         {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": -151.72,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "name": "精锋医疗(01.05)",
+          "revenue": -500.0,
+          "col_index": 15
         },
         {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "name": "天数智芯(01.05)",
+          "revenue": 3263.87,
+          "col_index": 20
         },
         {
-          "stock_name": "IFBH(06.25)",
-          "revenue": 2567.39,
-          "commission": 898.59,
-          "is_special": false,
-          "special_note": null
+          "name": "兆易创新(01.07)",
+          "revenue": 5710.4,
+          "col_index": 25
         },
         {
-          "stock_name": "周六福(06.25)",
-          "revenue": 456.58,
-          "commission": 159.8,
-          "is_special": false,
-          "special_note": null
+          "name": "BBSB INTL(01.08)",
+          "revenue": 0,
+          "col_index": 30
         },
         {
-          "stock_name": "极智嘉(07.04)",
-          "revenue": 361.81,
-          "commission": 126.63,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "赛力斯",
-          "revenue": -2672.57,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2951.72,
-          "commission": 1033.1,
-          "is_special": false,
-          "special_note": null
+          "name": "龙旗科技(01.08)",
+          "revenue": 450.68,
+          "col_index": 35
         }
-      ]
-    },
-    {
-      "account": "唐莎（嫂子）",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 3817.58,
-      "total_commission": 1477.57,
-      "total_loss": 404.03,
-      "stocks": [
+      ],
+      "accounts": [
         {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -80.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "account": "王峰",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": 3835.46,
+          "total_commission": 0.0,
+          "total_loss": 200.0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": 4035.46,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "兆易创新(01.07)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
         },
         {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "account": "安粉燕",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
         },
         {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": -100,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "account": "安香叶",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
         },
         {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -193.81,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "account": "安海燕",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
         },
         {
-          "stock_name": "IFBH(06.25)",
-          "revenue": 2687.08,
-          "commission": 940.48,
-          "is_special": false,
-          "special_note": null
+          "account": "王香叶",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "精锋医疗(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
         },
         {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": -30.22,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
+          "account": "安三娃",
+          "rate": 0.0,
+          "rate_group": "0%",
+          "management_group": "无分成账户",
+          "total_revenue": 12952.91,
+          "total_commission": 0.0,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": 12952.91,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
         },
         {
-          "stock_name": "乐舒适(20215.11.06)",
-          "revenue": 1534.53,
-          "commission": 537.09,
-          "is_special": false,
-          "special_note": null
+          "account": "刘彬",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "芦云",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "精锋医疗(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "郜燕燕",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "姚智鑫",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李焱",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 4076.71,
+          "total_commission": 1223.01,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": 3626.03,
+              "commission": 1087.81,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "龙旗科技(01.08)",
+              "revenue": 450.68,
+              "commission": 135.2,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "叶通",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "赵苗苗",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 3263.87,
+          "total_commission": 979.16,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "天数智芯(01.05)",
+              "revenue": 3263.87,
+              "commission": 979.16,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "芦川",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "杨凯",
+          "rate": 0.3,
+          "rate_group": "30%",
+          "management_group": "王峰管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "李文博",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "李妍妍",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "郑爽爽",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "刘增运(姐夫)",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "张连梅(妈妈)",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李明华(大姐)",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "李维峰(李爸爸)",
+          "rate": 0.5,
+          "rate_group": "50%",
+          "management_group": "文博管理账户",
+          "total_revenue": 346.38,
+          "total_commission": 173.19,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": 346.38,
+              "commission": 173.19,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张芳针(姨)",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "精锋医疗(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张继前(舅)",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张卓祥（哥）",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "唐莎（嫂子）",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 326.41,
+          "total_commission": 114.24,
+          "total_loss": 0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": 326.41,
+              "commission": 114.24,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张年光（哥）",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "茹雅倩（嫂子）",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "精锋医疗(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "张静",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "黄振博",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "刘家乐",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "精锋医疗(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "刘尊博",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "吴清汪",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "周立良",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "申嵩",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "张慧博",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "郑路遥",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "史澳博",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "高宁宁",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "郑加豪",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "万贲",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "王敏卓",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "高翔",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "杨森",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "许经菊",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "黄秋月",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "宋亚祥",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 0,
+          "total_commission": 0,
+          "total_loss": 0,
+          "stocks": []
+        },
+        {
+          "account": "王伟",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": -100.0,
+          "total_commission": 0,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "智普(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
+        },
+        {
+          "account": "李芝灵(妗子)",
+          "rate": 0.35,
+          "rate_group": "35%",
+          "management_group": "文博管理账户",
+          "total_revenue": 5710.4,
+          "total_commission": 2033.64,
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "兆易创新(01.07)",
+              "revenue": 5810.4,
+              "commission": 2033.64,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
         }
-      ]
-    },
-    {
-      "account": "张年光（哥）",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 19.24,
-      "total_commission": 39.57,
-      "total_loss": 93.81,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": 113.05,
-          "commission": 39.57,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -93.81,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "茹雅倩（嫂子）",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 6455.53,
-      "total_commission": 2326.24,
-      "total_loss": 190.87,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -172.63,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "IFBH(06.25)",
-          "revenue": 2567.39,
-          "commission": 898.59,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 190.87,
-          "commission": 66.8,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": -18.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3888.14,
-          "commission": 1360.85,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "张静",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 3803.44,
-      "total_commission": 1364.04,
-      "total_loss": 93.81,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -93.81,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "剑桥科技",
-          "revenue": 1077.34,
-          "commission": 377.07,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2819.91,
-          "commission": 986.97,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "黄振博",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 2115.24,
-      "total_commission": 1719.14,
-      "total_loss": 2796.6,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -93.81,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 194.87,
-          "commission": 68.2,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": -20.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 4716.97,
-          "commission": 1650.94,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "赛力斯",
-          "revenue": -2682.55,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "刘家乐",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": -61.76,
-      "total_commission": 60.94,
-      "total_loss": 235.89,
-      "stocks": [
-        {
-          "stock_name": "绿茶(05.12)",
-          "revenue": -83.24,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "宁德时代(05.15)",
-          "revenue": 0.0,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": 108.06,
-          "commission": 37.82,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -152.65,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "翰思艾泰 (12.18)",
-          "revenue": 66.07,
-          "commission": 23.12,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "刘尊博",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 0,
-      "total_commission": 0,
-      "total_loss": 0,
-      "stocks": []
-    },
-    {
-      "account": "吴清汪",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 0,
-      "total_commission": 0,
-      "total_loss": 0,
-      "stocks": []
-    },
-    {
-      "account": "周立良",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 7067.27,
-      "total_commission": 2473.55,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": 503.02,
-          "commission": 176.06,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3908.11,
-          "commission": 1367.84,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2656.14,
-          "commission": 929.65,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "申嵩",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 1104.45,
-      "total_commission": 414.15,
-      "total_loss": 78.83,
-      "stocks": [
-        {
-          "stock_name": "海天味业(2025.06.12)",
-          "revenue": 157.99,
-          "commission": 55.3,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -78.83,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "林清轩 (12.23)",
-          "revenue": 1025.29,
-          "commission": 358.85,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "张慧博",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 1393.59,
-      "total_commission": 1416.16,
-      "total_loss": 2652.6,
-      "stocks": [
-        {
-          "stock_name": "IFBH(06.25)",
-          "revenue": 3346.3,
-          "commission": 1171.2,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 186.88,
-          "commission": 65.41,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": 513.01,
-          "commission": 179.55,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "赛力斯",
-          "revenue": -2652.6,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "郑路遥",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": -123.77,
-      "total_commission": 0,
-      "total_loss": 123.77,
-      "stocks": [
-        {
-          "stock_name": "三花智控(06.19)",
-          "revenue": -123.77,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "史澳博",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 0,
-      "total_commission": 0,
-      "total_loss": 0,
-      "stocks": []
-    },
-    {
-      "account": "高宁宁",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 294.73,
-      "total_commission": 103.16,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "蓝思科技(07.04)",
-          "revenue": 294.73,
-          "commission": 103.16,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "郑加豪",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 3908.11,
-      "total_commission": 1367.84,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 3908.11,
-          "commission": 1367.84,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "万贲",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 0,
-      "total_commission": 0,
-      "total_loss": 0,
-      "stocks": []
-    },
-    {
-      "account": "王敏卓",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 5513.58,
-      "total_commission": 1929.75,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": 217.43,
-          "commission": 76.1,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 5296.15,
-          "commission": 1853.65,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "高翔",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 4697.0,
-      "total_commission": 1643.95,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 4697.0,
-          "commission": 1643.95,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "杨森",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": -30.22,
-      "total_commission": 0,
-      "total_loss": 30.22,
-      "stocks": [
-        {
-          "stock_name": "天岳先进(08.13)",
-          "revenue": -30.22,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "许经菊",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 0,
-      "total_commission": 0,
-      "total_loss": 0,
-      "stocks": []
-    },
-    {
-      "account": "黄秋月",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 4110.83,
-      "total_commission": 1438.79,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "林清轩 (12.23)",
-          "revenue": 1155.11,
-          "commission": 404.29,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2955.72,
-          "commission": 1034.5,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "宋亚祥",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 4856.77,
-      "total_commission": 1699.87,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 4856.77,
-          "commission": 1699.87,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "王伟",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 0,
-      "total_commission": 0,
-      "total_loss": 0,
-      "stocks": []
-    },
-    {
-      "account": "李芝灵(妗子)",
-      "rate": 0.35,
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "total_revenue": 5296.15,
-      "total_commission": 1853.65,
-      "total_loss": 0,
-      "stocks": [
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 5296.15,
-          "commission": 1853.65,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
+      ],
+      "special_range": [],
+      "missing_records": [],
+      "commission_rates": {
+        "0%": [
+          "王峰",
+          "安粉燕",
+          "安香叶",
+          "安海燕",
+          "王香叶",
+          "安三娃"
+        ],
+        "30%": [
+          "刘彬",
+          "芦云",
+          "郜燕燕",
+          "姚智鑫",
+          "李焱",
+          "叶通",
+          "赵苗苗",
+          "芦川",
+          "杨凯"
+        ],
+        "50%": [
+          "李文博",
+          "李妍妍",
+          "郑爽爽",
+          "刘增运(姐夫)",
+          "张连梅(妈妈)",
+          "李明华(大姐)",
+          "李维峰(李爸爸)"
+        ],
+        "35%": [
+          "张芳针(姨)",
+          "张继前(舅)",
+          "张卓祥（哥）",
+          "唐莎（嫂子）",
+          "张年光（哥）",
+          "茹雅倩（嫂子）",
+          "张静",
+          "黄振博",
+          "刘家乐",
+          "刘尊博",
+          "吴清汪",
+          "周立良",
+          "申嵩",
+          "张慧博",
+          "郑路遥",
+          "史澳博",
+          "高宁宁",
+          "郑加豪",
+          "万贲",
+          "王敏卓",
+          "高翔",
+          "杨森",
+          "许经菊",
+          "黄秋月",
+          "宋亚祥",
+          "王伟",
+          "李芝灵(妗子)"
+        ]
+      },
+      "account_groups": {
+        "文博管理账户": [
+          "李文博",
+          "李妍妍",
+          "郑爽爽",
+          "刘增运(姐夫)",
+          "张连梅(妈妈)",
+          "李明华(大姐)",
+          "李维峰(李爸爸)",
+          "张芳针(姨)",
+          "张继前(舅)",
+          "张卓祥（哥）",
+          "唐莎（嫂子）",
+          "张年光（哥）",
+          "茹雅倩（嫂子）",
+          "张静",
+          "黄振博",
+          "刘家乐",
+          "刘尊博",
+          "吴清汪",
+          "周立良",
+          "申嵩",
+          "张慧博",
+          "郑路遥",
+          "史澳博",
+          "高宁宁",
+          "郑加豪",
+          "万贲",
+          "王敏卓",
+          "高翔",
+          "杨森",
+          "许经菊",
+          "黄秋月",
+          "宋亚祥",
+          "王伟",
+          "李芝灵(妗子)"
+        ],
+        "王峰管理账户": [
+          "刘彬",
+          "芦云",
+          "郜燕燕",
+          "姚智鑫",
+          "李焱",
+          "叶通",
+          "赵苗苗",
+          "芦川",
+          "杨凯"
+        ],
+        "无分成账户": [
+          "王峰",
+          "安粉燕",
+          "安香叶",
+          "安海燕",
+          "王香叶",
+          "安三娃"
+        ]
+      },
+      "special_commissions": {
+        "李焱_蓝思科技": 300,
+        "姚智鑫_维立志博": 300,
+        "姚智鑫_中慧生物": 300,
+        "刘彬_维立志博": 300
+      },
+      "show_special_range": false
     }
-  ],
-  "special_range": [
-    {
-      "account": "李文博",
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "李妍妍",
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "range_revenue": -2682.55,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "赛力斯",
-          "revenue": -2682.55,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "郑爽爽",
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "range_revenue": 2692.09,
-      "range_commission": 1346.05,
-      "has_zijin_extra": true,
-      "stocks": [
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2692.09,
-          "commission": 1346.05,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "刘增运(姐夫)",
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "张连梅(妈妈)",
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "range_revenue": 1249.59,
-      "range_commission": 624.79,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "剑桥科技",
-          "revenue": 1249.59,
-          "commission": 624.79,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "李明华(大姐)",
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "range_revenue": 1108.21,
-      "range_commission": 554.11,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "聚水潭(10.17)",
-          "revenue": 1108.21,
-          "commission": 554.11,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "李维峰(李爸爸)",
-      "rate_group": "50%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "张芳针(姨)",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 2955.72,
-      "range_commission": 1034.5,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2955.72,
-          "commission": 1034.5,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "张继前(舅)",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "张卓祥（哥）",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 279.15,
-      "range_commission": 1033.1,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "赛力斯",
-          "revenue": -2672.57,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2951.72,
-          "commission": 1033.1,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "唐莎（嫂子）",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 1534.53,
-      "range_commission": 537.09,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "乐舒适(20215.11.06)",
-          "revenue": 1534.53,
-          "commission": 537.09,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "张年光（哥）",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "茹雅倩（嫂子）",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "张静",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 3897.25,
-      "range_commission": 1364.04,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "剑桥科技",
-          "revenue": 1077.34,
-          "commission": 377.07,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2819.91,
-          "commission": 986.97,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "黄振博",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": -2682.55,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "赛力斯",
-          "revenue": -2682.55,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "刘家乐",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 66.07,
-      "range_commission": 23.12,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "翰思艾泰 (12.18)",
-          "revenue": 66.07,
-          "commission": 23.12,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "刘尊博",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "吴清汪",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "周立良",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 2656.14,
-      "range_commission": 929.65,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2656.14,
-          "commission": 929.65,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "申嵩",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 1025.29,
-      "range_commission": 358.85,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "林清轩 (12.23)",
-          "revenue": 1025.29,
-          "commission": 358.85,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "张慧博",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": -2652.6,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "赛力斯",
-          "revenue": -2652.6,
-          "commission": 0,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "郑路遥",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "史澳博",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "高宁宁",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "郑加豪",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "万贲",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "王敏卓",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 5296.15,
-      "range_commission": 1853.65,
-      "has_zijin_extra": true,
-      "stocks": [
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 5296.15,
-          "commission": 1853.65,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "高翔",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "杨森",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "许经菊",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "黄秋月",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 4110.83,
-      "range_commission": 1438.79,
-      "has_zijin_extra": false,
-      "stocks": [
-        {
-          "stock_name": "林清轩 (12.23)",
-          "revenue": 1155.11,
-          "commission": 404.29,
-          "is_special": false,
-          "special_note": null
-        },
-        {
-          "stock_name": "壁仞科技 (12.29)",
-          "revenue": 2955.72,
-          "commission": 1034.5,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    },
-    {
-      "account": "宋亚祥",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "王伟",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 0,
-      "range_commission": 0,
-      "has_zijin_extra": false,
-      "stocks": []
-    },
-    {
-      "account": "李芝灵(妗子)",
-      "rate_group": "35%",
-      "management_group": "文博管理账户",
-      "range_revenue": 5296.15,
-      "range_commission": 1853.65,
-      "has_zijin_extra": true,
-      "stocks": [
-        {
-          "stock_name": "紫金国际(09.26)",
-          "revenue": 5296.15,
-          "commission": 1853.65,
-          "is_special": false,
-          "special_note": null
-        }
-      ]
-    }
-  ],
-  "missing_records": [
-    {
-      "account": "王峰",
-      "stock": "紫金国际(09.26)",
-      "row": 4,
-      "col": "CO"
-    },
-    {
-      "account": "安粉燕",
-      "stock": "紫金国际(09.26)",
-      "row": 5,
-      "col": "CO"
-    },
-    {
-      "account": "安粉燕",
-      "stock": "均胜电子",
-      "row": 5,
-      "col": "ER"
-    },
-    {
-      "account": "安粉燕",
-      "stock": "翰思艾泰 (12.18)",
-      "row": 5,
-      "col": "FQ"
-    },
-    {
-      "account": "安三娃",
-      "stock": "剑桥科技",
-      "row": 9,
-      "col": "EC"
-    },
-    {
-      "account": "安三娃",
-      "stock": "均胜电子",
-      "row": 9,
-      "col": "ER"
-    },
-    {
-      "account": "郜燕燕",
-      "stock": "海西新药(10.06)",
-      "row": 12,
-      "col": "DN"
-    },
-    {
-      "account": "姚智鑫",
-      "stock": "三花智控(06.19)",
-      "row": 13,
-      "col": "W"
-    },
-    {
-      "account": "李焱",
-      "stock": "赛力斯",
-      "row": 14,
-      "col": "EM"
-    },
-    {
-      "account": "叶通",
-      "stock": "三花智控(06.19)",
-      "row": 15,
-      "col": "W"
-    },
-    {
-      "account": "芦川",
-      "stock": "三花智控(06.19)",
-      "row": 17,
-      "col": "W"
-    },
-    {
-      "account": "芦川",
-      "stock": "赛力斯",
-      "row": 17,
-      "col": "EM"
-    },
-    {
-      "account": "芦川",
-      "stock": "翰思艾泰 (12.18)",
-      "row": 17,
-      "col": "FQ"
-    },
-    {
-      "account": "郑爽爽",
-      "stock": "紫金国际(09.26)",
-      "row": 21,
-      "col": "CO"
-    }
-  ],
-  "commission_rates": {
-    "0%": [
-      "王峰",
-      "安粉燕",
-      "安香叶",
-      "安海燕",
-      "王香叶",
-      "安三娃"
-    ],
-    "30%": [
-      "刘彬",
-      "芦云",
-      "郜燕燕",
-      "姚智鑫",
-      "李焱",
-      "叶通",
-      "赵苗苗",
-      "芦川",
-      "杨凯"
-    ],
-    "50%": [
-      "李文博",
-      "李妍妍",
-      "郑爽爽",
-      "刘增运(姐夫)",
-      "张连梅(妈妈)",
-      "李明华(大姐)",
-      "李维峰(李爸爸)"
-    ],
-    "35%": [
-      "张芳针(姨)",
-      "张继前(舅)",
-      "张卓祥（哥）",
-      "唐莎（嫂子）",
-      "张年光（哥）",
-      "茹雅倩（嫂子）",
-      "张静",
-      "黄振博",
-      "刘家乐",
-      "刘尊博",
-      "吴清汪",
-      "周立良",
-      "申嵩",
-      "张慧博",
-      "郑路遥",
-      "史澳博",
-      "高宁宁",
-      "郑加豪",
-      "万贲",
-      "王敏卓",
-      "高翔",
-      "杨森",
-      "许经菊",
-      "黄秋月",
-      "宋亚祥",
-      "王伟",
-      "李芝灵(妗子)"
-    ]
-  },
-  "account_groups": {
-    "文博管理账户": [
-      "李文博",
-      "李妍妍",
-      "郑爽爽",
-      "刘增运(姐夫)",
-      "张连梅(妈妈)",
-      "李明华(大姐)",
-      "李维峰(李爸爸)",
-      "张芳针(姨)",
-      "张继前(舅)",
-      "张卓祥（哥）",
-      "唐莎（嫂子）",
-      "张年光（哥）",
-      "茹雅倩（嫂子）",
-      "张静",
-      "黄振博",
-      "刘家乐",
-      "刘尊博",
-      "吴清汪",
-      "周立良",
-      "申嵩",
-      "张慧博",
-      "郑路遥",
-      "史澳博",
-      "高宁宁",
-      "郑加豪",
-      "万贲",
-      "王敏卓",
-      "高翔",
-      "杨森",
-      "许经菊",
-      "黄秋月",
-      "宋亚祥",
-      "王伟",
-      "李芝灵(妗子)"
-    ],
-    "王峰管理账户": [
-      "刘彬",
-      "芦云",
-      "郜燕燕",
-      "姚智鑫",
-      "李焱",
-      "叶通",
-      "赵苗苗",
-      "芦川",
-      "杨凯"
-    ],
-    "无分成账户": [
-      "王峰",
-      "安粉燕",
-      "安香叶",
-      "安海燕",
-      "王香叶",
-      "安三娃"
-    ]
-  },
-  "special_commissions": {
-    "李焱_蓝思科技": 300,
-    "姚智鑫_维立志博": 300,
-    "姚智鑫_中慧生物": 300,
-    "刘彬_维立志博": 300
   }
 }

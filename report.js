@@ -1,6 +1,8 @@
-// 港股打新收益分析系统 - 主脚本
+// 港股打新收益分析系统 - 主脚本（多年份支持）
 let reportData = null;
+let currentYear = null;
 let currentDetailAccount = null;
+let charts = {}; // 存储图表实例，用于销毁和重建
 
 // 页面加载时初始化
 document.addEventListener('DOMContentLoaded', async function() {
@@ -8,6 +10,9 @@ document.addEventListener('DOMContentLoaded', async function() {
         // 加载数据
         const response = await fetch('report_data.json');
         reportData = await response.json();
+
+        // 设置默认年份
+        currentYear = reportData.default_year;
 
         // 初始化页面
         initializePage();
@@ -17,32 +22,95 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 });
 
+// 获取当前年份的数据
+function getCurrentYearData() {
+    return reportData.data[currentYear];
+}
+
 // 初始化页面
 function initializePage() {
-    // 更新统计卡片
-    updateStatsCards();
+    // 初始化年份切换 Tab
+    initializeYearTabs();
 
     // 更新时间
     document.getElementById('updateTime').textContent = `数据更新时间: ${reportData.generated_at}`;
 
-    // 初始化图表
+    // 加载当前年份数据
+    loadYearData();
+}
+
+// 初始化年份切换 Tab
+function initializeYearTabs() {
+    const container = document.getElementById('yearTabsContainer');
+    const years = reportData.years;
+
+    container.innerHTML = years.map(year => `
+        <button class="year-tab-btn ${year === currentYear ? 'active' : ''}"
+                onclick="switchYear('${year}')"
+                data-year="${year}">
+            ${year}
+        </button>
+    `).join('');
+}
+
+// 切换年份
+function switchYear(year) {
+    if (year === currentYear) return;
+
+    currentYear = year;
+
+    // 更新年份 Tab 样式
+    document.querySelectorAll('.year-tab-btn').forEach(btn => {
+        if (btn.dataset.year === year) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
+    // 重新加载数据
+    loadYearData();
+}
+
+// 加载年份数据
+function loadYearData() {
+    const yearData = getCurrentYearData();
+
+    // 更新统计卡片
+    updateStatsCards();
+
+    // 销毁旧图表并初始化新图表
+    destroyCharts();
     initializeCharts();
 
-    // 初始化表格
+    // 更新表格
     updateAccountRevenueTable();
     updateCommissionSummaryTable();
     updateSpecialRangeTable();
     updateMissingRecords();
 
-    // 绑定筛选器事件
-    document.getElementById('accountGroupFilter').addEventListener('change', updateAccountRevenueTable);
-    document.getElementById('accountSortBy').addEventListener('change', updateAccountRevenueTable);
-    document.getElementById('commissionGroupFilter').addEventListener('change', updateCommissionSummaryTable);
+    // 重新绑定筛选器事件（如果还没绑定）
+    if (!document.getElementById('accountGroupFilter').hasAttribute('data-bound')) {
+        document.getElementById('accountGroupFilter').addEventListener('change', updateAccountRevenueTable);
+        document.getElementById('accountSortBy').addEventListener('change', updateAccountRevenueTable);
+        document.getElementById('commissionGroupFilter').addEventListener('change', updateCommissionSummaryTable);
+
+        document.getElementById('accountGroupFilter').setAttribute('data-bound', 'true');
+    }
+}
+
+// 销毁所有图表
+function destroyCharts() {
+    Object.values(charts).forEach(chart => {
+        if (chart) chart.destroy();
+    });
+    charts = {};
 }
 
 // 更新统计卡片
 function updateStatsCards() {
-    const summary = reportData.summary;
+    const yearData = getCurrentYearData();
+    const summary = yearData.summary;
     const html = `
         <div class="stat-card success">
             <div class="label">总收益</div>
@@ -70,11 +138,13 @@ function updateStatsCards() {
 
 // 初始化图表
 function initializeCharts() {
+    const yearData = getCurrentYearData();
+
     // 股票收益饼图
     const pieCtx = document.getElementById('stockPieChart').getContext('2d');
 
     // 只显示收益前10的股票，其他合并为"其他"
-    const sortedStocks = [...reportData.stocks].sort((a, b) => b.revenue - a.revenue);
+    const sortedStocks = [...yearData.stocks].sort((a, b) => b.revenue - a.revenue);
     const top10 = sortedStocks.slice(0, 10);
     const others = sortedStocks.slice(10);
     const othersSum = others.reduce((sum, s) => sum + s.revenue, 0);
@@ -87,7 +157,7 @@ function initializeCharts() {
         pieData.push(othersSum);
     }
 
-    new Chart(pieCtx, {
+    charts.stockPie = new Chart(pieCtx, {
         type: 'pie',
         data: {
             labels: pieLabels,
@@ -128,7 +198,7 @@ function initializeCharts() {
     const barCtx = document.getElementById('stockBarChart').getContext('2d');
     const top15 = sortedStocks.slice(0, 15);
 
-    new Chart(barCtx, {
+    charts.stockBar = new Chart(barCtx, {
         type: 'bar',
         data: {
             labels: top15.map(s => s.name.length > 15 ? s.name.substring(0, 15) + '...' : s.name),
@@ -170,12 +240,12 @@ function initializeCharts() {
     });
 
     // 亏损股票分析
-    const lossStocks = reportData.stocks.filter(s => s.revenue < 0);
+    const lossStocks = yearData.stocks.filter(s => s.revenue < 0);
 
     if (lossStocks.length > 0) {
         // 亏损股票饼图
         const lossPieCtx = document.getElementById('lossStockPieChart').getContext('2d');
-        const sortedLossStocks = [...lossStocks].sort((a, b) => a.revenue - b.revenue); // 从小到大排序（最亏的在前）
+        const sortedLossStocks = [...lossStocks].sort((a, b) => a.revenue - b.revenue);
         const top10Loss = sortedLossStocks.slice(0, 10);
         const othersLoss = sortedLossStocks.slice(10);
         const othersLossSum = othersLoss.reduce((sum, s) => sum + Math.abs(s.revenue), 0);
@@ -188,7 +258,7 @@ function initializeCharts() {
             lossPieData.push(othersLossSum);
         }
 
-        new Chart(lossPieCtx, {
+        charts.lossPie = new Chart(lossPieCtx, {
             type: 'pie',
             data: {
                 labels: lossPieLabels,
@@ -229,7 +299,7 @@ function initializeCharts() {
         const lossBarCtx = document.getElementById('lossStockBarChart').getContext('2d');
         const top15Loss = sortedLossStocks.slice(0, 15);
 
-        new Chart(lossBarCtx, {
+        charts.lossBar = new Chart(lossBarCtx, {
             type: 'bar',
             data: {
                 labels: top15Loss.map(s => s.name.length > 15 ? s.name.substring(0, 15) + '...' : s.name),
@@ -271,19 +341,21 @@ function initializeCharts() {
         });
     } else {
         // 如果没有亏损股票，显示提示信息
-        document.getElementById('lossStockPieChart').parentElement.innerHTML =
-            '<div class="alert alert-success text-center">🎉 没有亏损股票！</div>';
-        document.getElementById('lossStockBarChart').parentElement.innerHTML =
-            '<div class="alert alert-success text-center">🎉 没有亏损股票！</div>';
+        const lossPieParent = document.getElementById('lossStockPieChart').parentElement;
+        const lossBarParent = document.getElementById('lossStockBarChart').parentElement;
+
+        lossPieParent.innerHTML = '<canvas id="lossStockPieChart"></canvas><div class="alert alert-success text-center mt-3">🎉 没有亏损股票！</div>';
+        lossBarParent.innerHTML = '<canvas id="lossStockBarChart"></canvas><div class="alert alert-success text-center mt-3">🎉 没有亏损股票！</div>';
     }
 }
 
 // 更新账户收益表格
 function updateAccountRevenueTable() {
+    const yearData = getCurrentYearData();
     const groupFilter = document.getElementById('accountGroupFilter').value;
     const sortBy = document.getElementById('accountSortBy').value;
 
-    let accounts = [...reportData.accounts];
+    let accounts = [...yearData.accounts];
 
     // 筛选
     if (groupFilter !== 'all') {
@@ -319,9 +391,10 @@ function updateAccountRevenueTable() {
 
 // 更新分成汇总表格
 function updateCommissionSummaryTable() {
+    const yearData = getCurrentYearData();
     const groupFilter = document.getElementById('commissionGroupFilter').value;
 
-    let accounts = [...reportData.accounts];
+    let accounts = [...yearData.accounts];
 
     // 筛选
     if (groupFilter !== 'all') {
@@ -350,7 +423,45 @@ function updateCommissionSummaryTable() {
 
 // 更新特定范围分成表格
 function updateSpecialRangeTable() {
-    const data = [...reportData.special_range];
+    const yearData = getCurrentYearData();
+
+    // 找到特定范围分成的所有相关元素
+    const specialRangeSections = document.querySelectorAll('.section-title');
+    let specialRangeSection = null;
+
+    specialRangeSections.forEach(section => {
+        if (section.textContent.includes('特定范围分成统计')) {
+            specialRangeSection = section;
+        }
+    });
+
+    // 检查当前年份是否显示特定范围分成
+    if (!yearData.show_special_range || yearData.special_range.length === 0) {
+        // 隐藏特定范围分成部分
+        if (specialRangeSection) {
+            specialRangeSection.style.display = 'none';
+            // 隐藏后续的说明、筛选和表格
+            let nextEl = specialRangeSection.nextElementSibling;
+            while (nextEl && !nextEl.classList.contains('section-title')) {
+                nextEl.style.display = 'none';
+                nextEl = nextEl.nextElementSibling;
+            }
+        }
+        return;
+    }
+
+    // 显示特定范围分成部分
+    if (specialRangeSection) {
+        specialRangeSection.style.display = 'block';
+        // 显示后续的说明、筛选和表格
+        let nextEl = specialRangeSection.nextElementSibling;
+        while (nextEl && !nextEl.classList.contains('section-title')) {
+            nextEl.style.display = 'block';
+            nextEl = nextEl.nextElementSibling;
+        }
+    }
+
+    const data = [...yearData.special_range];
     data.sort((a, b) => b.range_commission - a.range_commission);
 
     // 计算特定范围统计
@@ -378,14 +489,15 @@ function updateSpecialRangeTable() {
 
 // 更新缺失记录
 function updateMissingRecords() {
+    const yearData = getCurrentYearData();
     const container = document.getElementById('missingRecordsContainer');
 
-    if (reportData.missing_records.length === 0) {
+    if (yearData.missing_records.length === 0) {
         container.innerHTML = '<div class="alert alert-success">✓ 没有缺失记录，所有中签都已填写卖出价格！</div>';
         return;
     }
 
-    container.innerHTML = reportData.missing_records.map(record => `
+    container.innerHTML = yearData.missing_records.map(record => `
         <div class="alert-missing">
             <strong>账户：</strong>${record.account} &nbsp;|&nbsp;
             <strong>股票：</strong>${record.stock} &nbsp;|&nbsp;
@@ -396,12 +508,13 @@ function updateMissingRecords() {
 
 // 显示账户详情
 function showAccountDetail(accountName) {
-    const account = reportData.accounts.find(a => a.account === accountName);
+    const yearData = getCurrentYearData();
+    const account = yearData.accounts.find(a => a.account === accountName);
     if (!account) return;
 
     currentDetailAccount = account;
 
-    document.getElementById('detailModalTitle').textContent = `${accountName} - 详细分成`;
+    document.getElementById('detailModalTitle').textContent = `${accountName} - 详细分成 (${currentYear}年)`;
 
     const tbody = document.getElementById('detailModalBody');
     tbody.innerHTML = account.stocks.map(stock => `
@@ -419,12 +532,13 @@ function showAccountDetail(accountName) {
 
 // 显示特定范围详情
 function showSpecialRangeDetail(accountName) {
-    const rangeData = reportData.special_range.find(r => r.account === accountName);
+    const yearData = getCurrentYearData();
+    const rangeData = yearData.special_range.find(r => r.account === accountName);
     if (!rangeData) return;
 
     currentDetailAccount = rangeData;
 
-    document.getElementById('detailModalTitle').textContent = `${accountName} - 特定范围详细分成`;
+    document.getElementById('detailModalTitle').textContent = `${accountName} - 特定范围详细分成 (${currentYear}年)`;
 
     const tbody = document.getElementById('detailModalBody');
     tbody.innerHTML = rangeData.stocks.map(stock => `
@@ -442,10 +556,11 @@ function showSpecialRangeDetail(accountName) {
 
 // 导出账户收益表
 function exportAccountRevenue() {
+    const yearData = getCurrentYearData();
     const groupFilter = document.getElementById('accountGroupFilter').value;
     const sortBy = document.getElementById('accountSortBy').value;
 
-    let accounts = [...reportData.accounts];
+    let accounts = [...yearData.accounts];
 
     if (groupFilter !== 'all') {
         accounts = accounts.filter(a => a.management_group === groupFilter);
@@ -467,14 +582,15 @@ function exportAccountRevenue() {
         '亏损金额': acc.total_loss
     }));
 
-    exportToExcel(data, '账户收益表');
+    exportToExcel(data, `账户收益表_${currentYear}`);
 }
 
 // 导出分成汇总表
 function exportCommissionSummary() {
+    const yearData = getCurrentYearData();
     const groupFilter = document.getElementById('commissionGroupFilter').value;
 
-    let accounts = [...reportData.accounts];
+    let accounts = [...yearData.accounts];
 
     if (groupFilter !== 'all') {
         accounts = accounts.filter(a => a.management_group === groupFilter);
@@ -490,12 +606,13 @@ function exportCommissionSummary() {
         '亏损金额': acc.total_loss
     }));
 
-    exportToExcel(data, '分成汇总表');
+    exportToExcel(data, `分成汇总表_${currentYear}`);
 }
 
 // 导出特定范围分成表
 function exportSpecialRange() {
-    const data = reportData.special_range.map(item => ({
+    const yearData = getCurrentYearData();
+    const data = yearData.special_range.map(item => ({
         '账户名称': item.account,
         '分成比例': item.rate_group,
         '范围内收益': item.range_revenue,
@@ -503,7 +620,7 @@ function exportSpecialRange() {
         '备注': item.has_zijin_extra ? '含紫金国际' : ''
     }));
 
-    exportToExcel(data, '特定范围分成表');
+    exportToExcel(data, `特定范围分成表_${currentYear}`);
 }
 
 // 导出账户详情
@@ -517,7 +634,7 @@ function exportAccountDetail() {
         '说明': stock.special_note || ''
     }));
 
-    exportToExcel(data, `${currentDetailAccount.account}_详细分成`);
+    exportToExcel(data, `${currentDetailAccount.account}_详细分成_${currentYear}`);
 }
 
 // 通用Excel导出函数

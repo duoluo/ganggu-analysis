@@ -205,6 +205,45 @@
             border-radius: 5px;
         }
 
+        /* 年份切换 Tab */
+        .year-tabs {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .year-tabs-label {
+            font-weight: 600;
+            color: #6c757d;
+            font-size: 0.95rem;
+        }
+
+        .year-tab-btn {
+            padding: 8px 24px;
+            border: 2px solid #dee2e6;
+            background: white;
+            color: #6c757d;
+            border-radius: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .year-tab-btn:hover {
+            border-color: #667eea;
+            color: #667eea;
+        }
+
+        .year-tab-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+        }
+
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 1.8rem;
@@ -227,6 +266,14 @@
             <div class="header">
                 <h1>🎯 港股打新收益分析系统</h1>
                 <div class="subtitle" id="updateTime">数据更新时间: 加载中...</div>
+            </div>
+
+            <!-- 年份切换 Tab -->
+            <div class="year-tabs">
+                <span class="year-tabs-label">数据年份:</span>
+                <div id="yearTabsContainer">
+                    <!-- 动态生成年份按钮 -->
+                </div>
             </div>
 
             <!-- Stats Cards -->
