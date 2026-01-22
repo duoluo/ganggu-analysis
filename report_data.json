@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-22 16:51:48",
+  "generated_at": "2026-01-22 22:19:35",
   "data_source": "Google Sheets",
   "default_year": "2025",
   "years": [
@@ -10,11 +10,11 @@
     "2025": {
       "year": "2025",
       "summary": {
-        "total_revenue": 203303.98,
+        "total_revenue": 200645.82,
         "total_stocks": 41,
         "total_accounts": 49,
         "total_commission": 61934.66,
-        "total_loss": 25843.64
+        "total_loss": 29411.8
       },
       "stocks": [
         {
@@ -154,7 +154,7 @@
         },
         {
           "name": "剑桥科技",
-          "revenue": 4889.31,
+          "revenue": 5799.31,
           "col_index": 133
         },
         {
@@ -169,7 +169,7 @@
         },
         {
           "name": "均胜电子",
-          "revenue": 0,
+          "revenue": -3568.16,
           "col_index": 148
         },
         {
@@ -391,9 +391,9 @@
           "rate": 0.0,
           "rate_group": "0%",
           "management_group": "无分成账户",
-          "total_revenue": 15834.76,
+          "total_revenue": 14050.68,
           "total_commission": 0.0,
-          "total_loss": 79.24,
+          "total_loss": 1863.32,
           "stocks": [
             {
               "stock_name": "绿茶(05.12)",
@@ -441,6 +441,13 @@
               "stock_name": "紫金国际(09.26)",
               "revenue": 11577.18,
               "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "均胜电子",
+              "revenue": -1784.08,
+              "commission": 0,
               "is_special": false,
               "special_note": null
             }
@@ -589,9 +596,9 @@
           "rate": 0.0,
           "rate_group": "0%",
           "management_group": "无分成账户",
-          "total_revenue": 9381.49,
+          "total_revenue": 8507.41,
           "total_commission": 0.0,
-          "total_loss": 137.73,
+          "total_loss": 1921.81,
           "stocks": [
             {
               "stock_name": "绿茶(05.12)",
@@ -639,6 +646,20 @@
               "stock_name": "紫金国际(09.26)",
               "revenue": 6784.06,
               "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "剑桥科技",
+              "revenue": 910.0,
+              "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "均胜电子",
+              "revenue": -1784.08,
+              "commission": 0,
               "is_special": false,
               "special_note": null
             },
@@ -2759,32 +2780,7 @@
           ]
         }
       ],
-      "missing_records": [
-        {
-          "account": "安粉燕",
-          "stock": "均胜电子",
-          "row": 5,
-          "col": "ER"
-        },
-        {
-          "account": "安粉燕",
-          "stock": "翰思艾泰 (12.18)",
-          "row": 5,
-          "col": "FS"
-        },
-        {
-          "account": "安三娃",
-          "stock": "剑桥科技",
-          "row": 9,
-          "col": "EC"
-        },
-        {
-          "account": "安三娃",
-          "stock": "均胜电子",
-          "row": 9,
-          "col": "ER"
-        }
-      ],
+      "missing_records": [],
       "commission_rates": {
         "0%": [
           "王峰",
@@ -2912,11 +2908,11 @@
     "2026": {
       "year": "2026",
       "summary": {
-        "total_revenue": 28512.15,
-        "total_stocks": 7,
+        "total_revenue": 27912.15,
+        "total_stocks": 8,
         "total_accounts": 49,
         "total_commission": 4523.24,
-        "total_loss": 2300.0
+        "total_loss": 2900.0
       },
       "stocks": [
         {
@@ -2953,6 +2949,11 @@
           "name": "龙旗科技(01.08)",
           "revenue": 450.68,
           "col_index": 35
+        },
+        {
+          "name": "鸣鸣很忙(01.22)",
+          "revenue": -600.0,
+          "col_index": 40
         }
       ],
       "accounts": [
@@ -2961,9 +2962,9 @@
           "rate": 0.0,
           "rate_group": "0%",
           "management_group": "无分成账户",
-          "total_revenue": 3835.46,
+          "total_revenue": 3735.46,
           "total_commission": 0.0,
-          "total_loss": 200.0,
+          "total_loss": 300.0,
           "stocks": [
             {
               "stock_name": "智普(01.05)",
@@ -2985,6 +2986,13 @@
               "commission": 0,
               "is_special": false,
               "special_note": null
+            },
+            {
+              "stock_name": "鸣鸣很忙(01.22)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
             }
           ]
         },
@@ -2993,12 +3001,19 @@
           "rate": 0.0,
           "rate_group": "0%",
           "management_group": "无分成账户",
-          "total_revenue": -100.0,
+          "total_revenue": -200.0,
           "total_commission": 0,
-          "total_loss": 100.0,
+          "total_loss": 200.0,
           "stocks": [
             {
               "stock_name": "智普(01.05)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "鸣鸣很忙(01.22)",
               "revenue": -100.0,
               "commission": 0,
               "is_special": false,
@@ -3029,12 +3044,19 @@
           "rate": 0.0,
           "rate_group": "0%",
           "management_group": "无分成账户",
-          "total_revenue": -100.0,
+          "total_revenue": -200.0,
           "total_commission": 0,
-          "total_loss": 100.0,
+          "total_loss": 200.0,
           "stocks": [
             {
               "stock_name": "MiniMax(01.06)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "鸣鸣很忙(01.22)",
               "revenue": -100.0,
               "commission": 0,
               "is_special": false,
@@ -3065,14 +3087,21 @@
           "rate": 0.0,
           "rate_group": "0%",
           "management_group": "无分成账户",
-          "total_revenue": 12952.91,
+          "total_revenue": 12852.91,
           "total_commission": 0.0,
-          "total_loss": 0,
+          "total_loss": 100.0,
           "stocks": [
             {
               "stock_name": "智普(01.05)",
               "revenue": 12952.91,
               "commission": 0.0,
+              "is_special": false,
+              "special_note": null
+            },
+            {
+              "stock_name": "鸣鸣很忙(01.22)",
+              "revenue": -100.0,
+              "commission": 0,
               "is_special": false,
               "special_note": null
             }
@@ -3256,10 +3285,18 @@
           "rate": 0.5,
           "rate_group": "50%",
           "management_group": "文博管理账户",
-          "total_revenue": 0,
+          "total_revenue": -100.0,
           "total_commission": 0,
-          "total_loss": 0,
-          "stocks": []
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "鸣鸣很忙(01.22)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
         },
         {
           "account": "刘增运(姐夫)",
@@ -3448,10 +3485,18 @@
           "rate": 0.35,
           "rate_group": "35%",
           "management_group": "文博管理账户",
-          "total_revenue": 0,
+          "total_revenue": -100.0,
           "total_commission": 0,
-          "total_loss": 0,
-          "stocks": []
+          "total_loss": 100.0,
+          "stocks": [
+            {
+              "stock_name": "鸣鸣很忙(01.22)",
+              "revenue": -100.0,
+              "commission": 0,
+              "is_special": false,
+              "special_note": null
+            }
+          ]
         },
         {
           "account": "刘家乐",
